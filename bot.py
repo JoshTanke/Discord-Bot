@@ -1,14 +1,14 @@
 """Simple Discord bot for handling Valorant Teams commands.
 """
-from absl import app
-from absl import flags
-import asyncio
 import json
 import sys
 import time
 import traceback
 from typing import List, Optional, Tuple
 
+from absl import app
+from absl import flags
+# import asyncio
 import discord
 from discord.ext import commands
 from team_generator import TeamGenerator, Rank
